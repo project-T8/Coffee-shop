@@ -1,0 +1,60 @@
+
+/* Full-width input fields */
+input[type=text], input[type=password]
+{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:16px;
+}
+/* The Modal (background) */
+.modal            /* hình nền phía sau form */
+{
+	position:fixed;
+    overflow: auto!important;
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 30%;
+}
+/* Modal Content Box */
+.modal-content
+{
+    background-color: #fefefe;
+    margin: 2% 0 0 15%;
+    border: 1px solid #888;
+    width: 5	0%;
+}
+.content_form_popup
+{
+    padding: 20px 20px 20px 20px;
+}
+.modal-content_sua
+{
+    background-color: #fefefe;
+    margin: 2% 0 0 30%;
+    border: 1px solid #888;
+    width: 50%;
+}
+/* The Close Button (x) */
+.close
+{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate
+{
+    animation: zoom 0.5s
+}
