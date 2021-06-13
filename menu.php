@@ -121,7 +121,7 @@ include "include/header.php";
 						<input class="form-control col-sm-12 col-xs-12" style="margin-top:17px;" type="text" placeholder="Chọn giá cao nhất" name="pricemax" name="pricemax" value="<?php echo $txpricemax; ?>" />
 					</div>
 				</div>
-				<div class="form-group">	
+				<!-- <div class="form-group">	
 					<select class=" custom-select mr-sm-4" searchable="Tìm kiếm tại đây.." name="type">
 						<option value="">Tất cả</option>
 						<option value="CF">Cà phê</option>
@@ -129,7 +129,7 @@ include "include/header.php";
 						<option value="IC">Đá xay</option>
 						<option value="FF">Trái cây</option>
 					</select>
-				</div>
+				</div> -->
 				<div class="form-group">
 					<div class="col-sm-8">
 						<button class="btn  btn-warning " type="submit">Tìm kiếm</button>
