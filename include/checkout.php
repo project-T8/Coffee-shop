@@ -36,6 +36,7 @@
 					<div class="uk-card-body ">
 						<div class="uk-grid-small uk-grid">
 							<div class="uk-width-1-1 uk-margin-top uk-grid-margin uk-first-column">
+								<span>Địa chỉ giao hàng:</span>
 								<div class="uk-inline uk-width-1-1 uk-visible@l">
 									<div class="logaddress">
 										<span class="uk-form-icon" style="color: rgb(112, 112, 112);">
@@ -46,9 +47,11 @@
 									</div>
 								</div>
 							</div>
+						
 							<div class="uk-width-1-2@l uk-width-1-2@m uk-margin-top uk-grid-margin uk-first-column">
 								<div class="uk-inline uk-width-1-1">
-									<span class="uk-form-icon" style="color: rgb(112, 112, 112);">
+									<p>Người Nhận:</p>
+									<span class="uk-form-icon" style="color: rgb(112, 112, 112);top:40px">
 										<img src="img/user.png" />
 									</span>
 									<input placeholder="Người nhận" class="uk-input" value="<?php echo $lname.' '.$fname ; ?>" id="name"/>
@@ -56,7 +59,8 @@
 							</div>
 							<div class="uk-width-1-2@l uk-width-1-2@m uk-margin-top uk-grid-margin">
 								<div class="uk-inline uk-width-1-1">
-									<span class="uk-form-icon" style="color: rgb(112, 112, 112);">
+									<p>Phone Number:</p>
+									<span class="uk-form-icon" style="color: rgb(112, 112, 112); top:40px">
 										<img src="img/phone.png" />
 									</span>
 									<input placeholder="Số điện thoại" class="uk-input" value="<?php echo $phone; ?>" id="phone"/>
@@ -64,6 +68,7 @@
 							</div>
 							<div class="uk-width-1-1@l uk-width-1-1@m uk-margin-top uk-grid-margin uk-first-column">
 								<div class="uk-inline uk-width-1-1">
+									<p>Ghi chú:</p>
 									<input placeholder="Ghi chú thêm" class="uk-input" id="note"/>
 								</div>
 							</div>
@@ -138,11 +143,7 @@
 				<div id="detail_checkout">
 					<div>
 						<div id="container_sticky" class="uk-card uk-card-default uk-card-body uk-card-small uk-padding-remove" style="z-index: 0;">
-							<div class="uk-card-header uk-grid-small uk-grid">
-								<button class="tch-text-bold uk-button uk-button-primary uk-width-1-1 uk-padding-remove-left uk-padding-remove-right order" id="order">
-									Đặt hàng
-								</button>
-							</div>
+							
 							<div>
 								<div>
 									<div class="uk-card-body" id="paymentDetail">
@@ -169,6 +170,11 @@
 										<span id="total_price2"> đ</span>
 									</div>
 								</div>
+							</div>
+							<div class="uk-card-header uk-grid-small uk-grid">
+								<button class="tch-text-bold uk-button uk-button-primary uk-width-1-1 uk-padding-remove-left uk-padding-remove-right order" id="order">
+									Đặt hàng
+								</button>
 							</div>
 						</div>
 					</div>
