@@ -1,5 +1,6 @@
 <!-- Start gallery Area -->
-			
+<section>
+					<div class="container">
 					<div class="row">
 						<div class="col-lg-4">
 							<a href="img/g1.jpg" class="img-pop-home">
@@ -26,7 +27,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>	
+					</div></div>
+					
+				
 			</section>
 			<!-- End gallery Area -->
