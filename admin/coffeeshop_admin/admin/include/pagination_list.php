@@ -30,7 +30,7 @@
 		$result2 = mysqli_query($con,$sql2);
 		$row2=mysqli_fetch_array($result2);
 		$output.='<tr>
-									<td width="24%" align="center"><img width="100%" height="15%" style="position:relative" src="../../../img/employee/'.$row['img'].'"/></td>
+									<td width="24%" align="center"><img width="100px" height="100px" style="position:relative" src="../../../img/employee/'.$row['img'].'"/></td>
 									<td width="25%" align="center" style="font-weight:500">'.$row['lastname'] .' '. $row['firstname'].'</td>
 									<td width="20%" align="center"  style="font-weight:500">'.$row['email'].'</td>
 									<td width="25%" align="center" style="font-weight:500">'.$row['phone'].'</td>
