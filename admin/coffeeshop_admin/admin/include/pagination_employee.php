@@ -60,7 +60,7 @@
 		$result2 = mysqli_query($con,$sql2);
 		$row2=mysqli_fetch_array($result2);
 		$output.='<tr>
-									<td width="10%" align="center"><img width="100%" height="18%" style="position:relative" src="../../../img/employee/'.$row['img'].'"/></td>
+									<td width="10%" align="center"><img width="150px" height="120px" style="position:relative" src="../../../img/employee/'.$row['img'].'"/></td>
 									<td width="10%" align="center" style="font-weight:500">'.$row["id_em"].'</td>
 									<td width="15%" align="center" style="font-weight:500">'.$row['lastname']." ". $row['firstname'].'</td>
 									<td width="10%" align="center" style="font-weight:500">'.$row['username'].'</td>
@@ -70,14 +70,20 @@
 		 if($_SESSION['ad_role']=='admin')	$output .='<td width="10%" align="center" >
 									<a style="cursor:pointer;color:purple" id="'.$row["id_em"].'" data-toggle="modal" data-target=".edit-emp"  onclick="fetch_emp(this)">
                         				<i class="material-icons">create</i>
-                      				</a>
-                      				<!--BUTTON XÓA-->
-                       				<a style="cursor:pointer; color:purple" id="'.$row['id_em'].'" class="del_emp">
-                         				<i class="material-icons">clear</i>
-                      				</a>
-									</td>';
-			$output .=					'</tr>	';
-	}
+										</a>';
+
+									  
+                      				
+										if($_SESSION['ad_user'] != $row['username']) {
+			  
+			  
+										 $output .= '<a style="cursor:pointer; color:purple" id="'.$row['id_em'].'" class="del_emp">
+										   <i class="material-icons">clear</i>
+										</a>';
+										}
+							  $output .=		'</td>';
+			  $output .=					'</tr>	';
+	  }
 	$output.='</tbody>
                       </table>';
 	$page_query = "SELECT * FROM employee WHERE 1 ".$searchQuery."";
