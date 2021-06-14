@@ -127,7 +127,7 @@ include "include/header.php";
 						<option value="CF">Cà phê</option>
 						<option value="TM">Trà và machiato</option>
 						<option value="IC">Đá xay</option>
-						<option value="FF">Trái cây</option>
+						<option value="FF">Sinh tố</option>
 					</select>
 				</div> -->
 				<div class="form-group">
