@@ -4,7 +4,7 @@
 					<div class="row justify-content-start align-items-center">
 						<div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
 							<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
+							<a class="play-btn" href="https://www.youtube.com/watch?v=CMkJaSh8dQ8"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
 						</div>						
 						<div class="col-lg-6 video-left">
 							<h6>Quá trình làm cà phê</h6>
