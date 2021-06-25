@@ -77,7 +77,7 @@
 		
 		$row2 = mysqli_fetch_assoc($result2);
 		$output.='<tr>
-							  	<td width="20%" style="padding-left:40px" ><img width="100%" height="30%" style="position:relative" src="../../../img/product/'.$row['image'].'"/></td>
+							  	<td width="20%" style="padding-left:40px" ><img width="100%" height="150px" style="position:relative" src="../../../img/product/'.$row['image'].'"/></td>
 								<td width="10%" style="text-align:center"><span style="font-weight:500">'.$row['id_pro'] .'</span></td>
 								<td width="15%" align="center"><span style="font-weight:500">'.$row['name'].'</span></td>
 								<td width="30%" style="font-weight:500">'.  $row['info'].'</td>
