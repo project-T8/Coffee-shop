@@ -11,6 +11,7 @@
 							</a>	
 						</div>
 						<div class="col-lg-8">
+							
 							<a href="img/g3.jpg" class="img-pop-home">
 								<img class="img-fluid" src="img/g3.jpg" alt="">
 							</a>	
@@ -27,7 +28,8 @@
 								</div>
 							</div>
 						</div>
-					</div></div>
+					</div>
+				</div>
 					
 				
 			</section>

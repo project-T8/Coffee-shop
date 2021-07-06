@@ -1,4 +1,4 @@
-	<style>
+<style>
 	#nav-menu-container ul li a:hover{
 	color: #FF9933;
 	text-decoration:none}
@@ -62,6 +62,9 @@
 	@media (max-width:768px){
 		.cart{margin-right:30px;}
 	}
+    #header{
+        background-color: wheat;
+    }
 </style>
 <div id="header">			  	
 	<div class="container">
@@ -89,7 +92,7 @@
 				    ?>
 				    <li class="menu-active"><a href="<?php echo "./index.php";?>">Trang chủ</a></li>
 				    <li><a href="<?php echo "./menu.php";?>">Coffee</a></li>	
-					<li><a href="<?php echo "./index.php";?>">Tin Tức</a></li>
+					<li><a href="<?php echo "./tintuc.php";?>">Tin Tức</a></li>
 				    <li><a href="<?php echo "./index.php";?>">Đánh giá</a></li>
 				    <?php
 						}
@@ -100,7 +103,7 @@
 			<div>
 				<a href="#cart_popup" data-toggle="modal">
 					<img src="img/cart.png" style="width:20%" />
-					<span style="color:#FFFFFF;" id="total-item"></span>
+					<span style="color:black;" id="total-item"></span>
 				</a>
 			</div>  
 			<?php } ?>	
@@ -141,7 +144,8 @@
 				{
 			?>
 				<div class="dangnhap" style="margin-right:35px">
-					<a href="#myloginForm" data-toggle="modal">Đăng nhập</a>
+					<a href="#myloginForm" data-toggle="modal" style="color:black;" 
+                    >Đăng nhập</a>
 				</div>
 				
 			<?php
@@ -152,19 +156,6 @@
 	</div>
 </div><!-- #header -->
 <!-- start banner Area -->
-<section class="banner-area" id="home">	
-	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-start">
-			<div class="banner-content col-lg-7">
-				<h1>
-					Bắt đầu ngày mới <br>
-					với một ly cà phê				
-				</h1>
-			</div>											
-		</div>
-	</div>
-</section>
-<!-- End banner Area -->	
 <!--Cart -->
 <div id="cart_popup" class="modal fade"  tabindex="-1" role="dialog" >
 	<div class="modal-dialog modal-lg modal-dialog-centered " role="document"> 
