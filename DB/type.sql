@@ -39,7 +39,7 @@ CREATE TABLE `type` (
 
 INSERT INTO `type` (`id_type`, `name`) VALUES
 ('CF', 'Cà phê'),
-('FF', 'Sinh tố'),
+('FF', 'Trái cây'),
 ('IC', 'Đá xay'),
 ('TM', 'Trà vs macchiato');
 
