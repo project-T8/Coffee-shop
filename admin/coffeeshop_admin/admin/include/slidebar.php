@@ -37,6 +37,12 @@
                       <p>Quản lý sản phẩm</p>
                   </a>
               </li>
+              <li class="nav-item <?php if($id_pro>0) echo "active"; ?> ">
+                  <a class="nav-link" href="./quanlytintuc.php">
+                  <i class="material-icons">library_books</i>
+                      <p>Quản lý Tin Tức</p>
+                  </a>
+              </li>
               <li class="nav-item <?php if($bill>0) echo "active"; ?>">
                   <a class="nav-link" href="./quanlydonhang.php">
                       <i class="material-icons">library_books</i>
