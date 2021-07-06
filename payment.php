@@ -38,7 +38,8 @@ session_start()
 </head>
 
 <body>
-<?php include("include/header.php"); ?>
+<?php include("include/heardermenu.php"); ?>
+<h1></h1>
 <?php include("include/checkout.php") ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

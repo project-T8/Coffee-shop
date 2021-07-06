@@ -23,10 +23,10 @@ if(!empty($_SESSION["gio_hang"]))
 	{
 		$output .='
 		<tr>
-			<td align="center">'.$values["product_name"].'</td>
+			<td align="left">'.$values["product_name"].'</td>
 			<td align="center"><button id="'.$values["product_id"].'" class="min" style="border:none;background:none;padding-right:20px">-</button><span id="quantity">'.$values["so_luong"].'</span><button id="'.$values["product_id"].'" class="plus" style="border:none;background:none;padding-left:20px">+</button></td>
-			<td align="right">'.number_format((float)$values["product_price"]*1000,0,".",",").'</td>
-			<td align="right">'.number_format((int)$values["product_price"]*$values["so_luong"]*1000,0,".",",").'</td>
+			<td align="center">'.number_format((float)$values["product_price"]*1000,0,".",",").'</td>
+			<td align="center">'.number_format((int)$values["product_price"]*$values["so_luong"]*1000,0,".",",").'</td>
 			<td align="center"><button name="delete" class="btn btn-danger btn-xs	delete" id="'.$values["product_id"].'">Xóa</button></td>
 		</tr>
 		';
